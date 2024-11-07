@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Veterinaria</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Dogtor</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Accerca de</a></li>
+        <li><a href="#store">Tienda</a></li>
+        <li><a href="#service">Servicios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <header id="home">
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h4>Bienvenido</h4>
+          <h1>a<br /><span>Dogtor</span></h1>
+          <h2>Amamos a las mascotas como tú</h2>
+          <p>
+            Desde controles de rutina hasta tratamientos especializados, estamos aquí para garantizar que sus mascotas lleven una vida feliz y saludable.
+          </p>
+          <div class="header__btn">
+            <button>
+              Empieza aquí!
+              <span><i class="ri-arrow-right-line"></i></span>
+            </button>
+          </div>
+        </div>
+        <div class="header__image">
+          <img
+            src="assets/header-bg.png"
+            alt="header-bg"
+            class="header__image-bg"
+          />
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+      <div class="header__bottom"></div>
+    </header>
+
+    <section class="section__container intro__container">
+      <p class="section__subheader">Intro</p>
+      <h2 class="section__header">Conócenos más</h2>
+      <div class="intro__grid">
+        <div class="intro__card">
+          <div class="intro__image">
+            <img src="assets/intro-1.png" alt="intro" />
+          </div>
+          <h4>Expertos en mascotas</h4>
+          <p>
+            Conozca a nuestro equipo de veterinarios capacitados, dedicados al
+bienestar de su mascota.
+          </p>
+          <a href="#">Leer más</a>
+        </div>
+        <div class="intro__card">
+          <div class="intro__image">
+            <img src="assets/intro-2.png" alt="intro" />
+          </div>
+          <h4>Servicios veterinarios</h4>
+          <p>
+            Ofrecemos una amplia gama de servicios veterinarios para mantener a sus mascotas
+            sanas y felices.
+          </p>
+          <a href="#">Leer más</a>
+        </div>
+        <div class="intro__card">
+          <div class="intro__image">
+            <img src="assets/intro-3.png" alt="intro" />
+          </div>
+          <h4>Contacto</h4>
+          <p>
+            Comuníquese con nosotros para cualquier consulta o programe una cita para
+            el cuidado de su mascota.
+          </p>
+          <a href="#">Leer más</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <p class="section__subheader">Sobre nosotros</p>
+      <h2 class="section__header">Qué podemos hacer por usted</h2>
+      <div class="about__row">
+        <div class="about__image">
+          <img src="assets/about-1.jpg" alt="about" />
+        </div>
+        <div class="about__content">
+          <span><img src="assets/about-1-icon.png" alt="about-icon" /></span>
+          <h4>Permítanos ayudarle con la salud de su mascota</h4>
+          <p>
+            Nuestros veterinarios expertos están aquí para brindar atención integral y
+orientación para garantizar que su mascota se mantenga en perfecto estado de salud.
+          </p>
+        </div>
+      </div>
+      <div class="about__row">
+        <div class="about__image">
+          <img src="assets/about-2.jpg" alt="about" />
+        </div>
+        <div class="about__content">
+          <span><img src="assets/about-2-icon.png" alt="about-icon" /></span>
+          <h4>Un personal atento cuidará de su mascota.</h4>
+          <p>
+            Su mascota estará en buenas manos con nuestro personal compasivo y bien capacitado, que trata a cada mascota como si fuera de la familia.
+          </p>
+        </div>
+      </div>
+      <div class="about__row">
+        <div class="about__image">
+          <img src="assets/about-3.jpg" alt="about" />
+        </div>
+        <div class="about__content">
+          <span><img src="assets/about-3-icon.png" alt="about-icon" /></span>
+          <h4>Déjanos cuidar a tu preciosa y querida mascota</h4>
+          <p>
+            Desde el baño hasta el peinado, ofrecemos servicios de peluquería profesional para que su mascota se vea y se sienta lo mejor posible.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="product" id="store">
+      <div class="section__container product__container">
+        <p class="section__subheader">Productos</p>
+        <h2 class="section__header">Productos destacados para mascotas</h2>
+        <div class="product__grid">
+          <div class="product__card">
+            <img src="assets/product-1.jpg" alt="product" />
+            <h4>Bolsa de basura para perros</h4>
+            <p>
+              Bolsas de basura prácticas y ecológicas para desechar fácilmente los desechos de las mascotas.
+            </p>
+            <h3>$29.00 USD</h3>
+          </div>
+          <div class="product__card">
+            <img src="assets/product-2.jpg" alt="product" />
+            <h4>Accesorios para mascotas</h4>
+            <p>
+              Explora nuestra gama de accesorios elegantes y funcionales para tus
+              amigos peludos.
+            </p>
+            <h3>$49.00 USD</h3>
+          </div>
+          <div class="product__card">
+            <img src="assets/product-3.jpg" alt="product" />
+            <h4>Comida para perros</h4>
+            <p>
+              Alimento nutritivo y delicioso para perros para mantener a tu mascota sana y
+              feliz.
+            </p>
+            <h3>$79.00 USD</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">Servicios</p>
+      <h2 class="section__header">Qué podemos hacer por usted?</h2>
+      <div class="service__flex">
+        <div class="service__card">
+          <div>
+            <img src="assets/service-1.png" alt="service" />
+          </div>
+          <p>Atención de emergencia</p>
+        </div>
+        <div class="service__card">
+          <div>
+            <img src="assets/service-2.png" alt="service" />
+          </div>
+          <p>Servicios de vacunación</p>
+        </div>
+        <div class="service__card">
+          <div>
+            <img src="assets/service-3.png" alt="service" />
+          </div>
+          <p>Asesoramiento nutricional</p>
+        </div>
+        <div class="service__card">
+          <div>
+            <img src="assets/service-4.png" alt="service" />
+          </div>
+          <p>Consulta de comportamiento</p>
+        </div>
+        <div class="service__card">
+          <div>
+            <img src="assets/service-5.png" alt="service" />
+          </div>
+          <p>Servicios de hospedaje de mascotas</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="client">
+      <div class="section__container client__container">
+        <p class="section__subheader">Testimonios</p>
+        <h2 class="section__header">Lo que la gente dice de nosotros</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="assets/client-1.jpg" alt="client" />
+                  <div>
+                    <h4>Sarah Johnson</h4>
+                    <h5>Diseñador gráfico</h5>
+                  </div>
+                </div>
+                <p>
+                  La atención que recibió mi perro en Dogtor fue excepcional. Los
+                  veterinarios fueron atentos y se preocuparon por el bienestar de mi perro.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="assets/client-2.jpg" alt="client" />
+                  <div>
+                    <h4>Michael Adams</h4>
+                    <h5>Ingeniero de software</h5>
+                  </div>
+                </div>
+                <p>
+                  ¡Dogtor salvó a mi gato durante una emergencia! Su respuesta rápida y su experiencia marcaron la diferencia.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="assets/client-3.jpg" alt="client" />
+                  <div>
+                    <h4>Emily Martinez</h4>
+                    <h5>Maestra</h5>
+                  </div>
+                </div>
+                <p>
+                  Confío en Dogtor para todas mis mascotas. Su equipo es
+profesional y siempre se esfuerzan al máximo por sus
+pacientes.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="assets/client-4.jpg" alt="client" />
+                  <div>
+                    <h4>Jason Lee</h4>
+                    <h5>Especialista en marketing</h5>
+                  </div>
+                </div>
+                <p>
+                  ¡Los servicios de peluquería canina de Dogtor son fantásticos! Mi cachorro
+siempre vuelve luciendo fresco y feliz.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="assets/client-5.jpg" alt="client" />
+                  <div>
+                    <h4>David Thompson</h4>
+                    <h5>Contador</h5>
+                  </div>
+                </div>
+                <p>
+                  Nunca he visto un equipo tan dedicado a los animales. Dogtor es
+mi clínica de referencia para todos los problemas relacionados con las mascotas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container instagram__container">
+      <p>seguinos</p>
+      <h2 class="section__header">Instagram</h2>
+      <div class="instagram__grid">
+        <img src="assets/instagram-1.jpg" alt="instagram" />
+        <img src="assets/instagram-2.jpg" alt="instagram" />
+        <img src="assets/instagram-3.jpg" alt="instagram" />
+        <img src="assets/instagram-4.jpg" alt="instagram" />
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#">Lugar para mascotas</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Compania</h4>
+          <ul class="footer__links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobreno sotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Dirección</h4>
+          <ul class="footer__links">
+            <li><a href="#">New Delhi, India</a></li>
+            <li><a href="#">View on Maps</a></li>
+          </ul>
+          <br />
+          <h4>Inquiries</h4>
+          <ul class="footer__links">
+            <li><a href="#">+91 0987654321</a></li>
+            <li><a href="#">info@website.com</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Hoja informativa</h4>
+          <p>Manténgase actualizado con nuestras últimas noticias</p>
+          <form action="/">
+            <input type="text" placeholder="Your email" />
+            <button class="btn">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </form>
+          <br />
+          <h4>Seguinos</h4>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-tiktok-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Todos los derechos reservados. 2024
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
